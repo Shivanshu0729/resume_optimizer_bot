@@ -83,3 +83,5 @@ Score ranges:
 TELEGRAM_TOKEN — Telegram bot token — get from @BotFather
 GROQ_API_KEY — Groq LLM API key — get from console.groq.com
 
+## Author 
+Developed by Shivanshu
