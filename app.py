@@ -388,7 +388,7 @@ div[data-testid="column"] { padding: 0 12px !important; }
 </style>
 """, unsafe_allow_html=True)
 
-# ── HERO ──────────────────────────────────────────────────────────────────────
+# HERO 
 st.markdown("""
 <div class="hero-wrap">
     <div class="hero-glow"></div>
@@ -398,7 +398,7 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# ── LAYOUT ────────────────────────────────────────────────────────────────────
+# LAYOUT
 left, right = st.columns([5, 7], gap="medium")
 
 with left:
@@ -431,7 +431,7 @@ with left:
     st.markdown("<div style='height:16px'></div>", unsafe_allow_html=True)
     analyze_btn = st.button("Analyze Resume")
 
-# ── RESULTS ──────────────────────────────────────────────────────────────────
+# RESULTS
 with right:
     if analyze_btn:
         if not jd_text.strip():
